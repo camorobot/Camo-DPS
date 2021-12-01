@@ -15,6 +15,9 @@
     
         $conn = OpenCon("mysql");
     
+        if (openCon("mysql")->connect_error) {
+            die(header('Location: /assets/php/check_db_connection.php'));
+        } 
         //$sql = "SHOW TABLES"; 
         $sql = "select jaartal from muziekdatabase.Stuk";  //edit your table name here
         $response = $conn->query($sql);
