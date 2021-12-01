@@ -10,20 +10,20 @@
  * nginx: image: nginx:latest
  * phpmyadmin: image: phpmyadmin/phpmyadmin:latest
 
-#### database_server
+1. ##### database_server
  The database_server is used as database being inside the docker container. This database is run on the Mariadb database management system.
  The database host, username, and password are:
  * host: 'Database'
  * username: 'root'
  * password: 'Welkom01!'
 
-#### app
+2. ##### app
  App is used as PHP server. The php files that you want to deliver to the web server are in the folder: /src/public/
 
-#### nginx
+3. ##### nginx
  This service is used to set up a website with PHP support. See the 'nginx.conf' file for more information about the nginx service.
 
-#### phpmyadmin
+4. ##### phpmyadmin
  Phpmyadmin is used to get an easy overview of all the databases. This service is not required to be used, but it does make it easier.
 
 
