@@ -28,4 +28,5 @@
 
 
 ## How to use
- To use these docker containers you can run the command: **docker compose up** and the containers will be started and configured.
+ To use these docker containers you can run the command: 
+    docker compose up
