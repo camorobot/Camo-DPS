@@ -2,6 +2,8 @@
  Docker container with: 'php8.0', 'phpmyadmin', 'nginx' and 'Mariadb'.
  Made for using a Macbook M1
 
+## What is Camo-DPS
+Camo-DPS is a docker environment in which users can run a web server with a database. The docker environment can be easily transferred and used on multiple systems. In this environment, everything is already linked to each other, so you don't have to change any settings and you can get started right away.
 
 ## Whats inside the docker container
  The docker container uses 4 services.
