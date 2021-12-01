@@ -28,7 +28,16 @@
 
 
 ## How to use
+### Run the container
  Make sure you have downloaded and installed Docker.
  Once you got docker you can use these docker containers by running the command:
 
     $ docker compose up
+
+
+### Use files for further developments
+##### Execute .sql files from php 
+ In the folder /src/assets/php/ there is a file called 'run_sql_script.php'. This file contains the code to run a sql script on the database via php. In that file a reference is made to '../sql/test.sql', you could modify this to run your own .sql script.
+
+##### View database data on the webpage
+ If you want to read data from the database there is a file called 'view_data_db.php'. This describes how you can run a query and display the data on the website
