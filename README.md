@@ -1,5 +1,5 @@
 # Camo-DPS
- Docker container with: 'Php8.0', 'phpmyadmin', 'nginx' and 'Mariadb'
+ Docker container with: 'php8.0', 'phpmyadmin', 'nginx' and 'Mariadb'.
  Made for using a Macbook M1
 
 
