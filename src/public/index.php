@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/camo-dps-main.css">
+    <link rel="stylesheet" href="/assets/css/camo_dps_main.css">
     <script src="/assets/js/fontAwsome.js" crossorigin="anonymous"></script>
-    <script src="/assets/js/camo-dps-timer.js"></script>
+    <script src="/assets/js/camo_dps_timer.js"></script>
     <title>Camo-DPS</title>
 </head>
 <body>
@@ -28,6 +28,8 @@
                         <p>Is this your first time on this container?</p>
                         <p>Then we will set up the database for you.</p>
                         <p>One moment please.</p>
+                        <p>To use your own project, replace the</p>
+                        <p>index.php file in /src/public/</p>
                     </div>
                     <div id="preloader">
                         <div id="loader"></div>
