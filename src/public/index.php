@@ -28,8 +28,6 @@
                         <p>Is this your first time on this container?</p>
                         <p>Then we will set up the database for you.</p>
                         <p>One moment please.</p>
-                        <p>To use your own project, replace the</p>
-                        <p>index.php file in /src/public/</p>
                     </div>
                     <div id="preloader">
                         <div id="loader"></div>
@@ -42,6 +40,9 @@
             echo '<div class="info-container">
                         <h1>Welcome to Camo-DPS</h1>
                         <p>The database has been successfully integrated</p>
+                        <br />
+                        <p>To use your own project, replace the</p>
+                        <p>index.php file in /src/public/</p>
                     </div>
                     <div class=pre-icon>
                         <div class="icon">
