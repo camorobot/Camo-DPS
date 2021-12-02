@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/camo-dps-main.css">
     <script src="/assets/js/fontAwsome.js" crossorigin="anonymous"></script>
-    <script src="/assets/js/timer.js"></script>
+    <script src="/assets/js/camo-dps-timer.js"></script>
     <title>Camo-DPS</title>
 </head>
 <body>
     <?php
-        require './assets/php/db_connectie.php';
+        require './assets/php/db_connection.php';
     
         $conn = OpenCon("mysql");
     
@@ -50,7 +50,7 @@
                         <li><a href="./assets/php/phpinfo.php">Php Info</a></li>
                         <li><a href="./assets/php/view_data_db.php">Muziekdatabase</a></li>
                         <li><a href="http://localhost:8080">Php myadmin</a></li>
-                        <li><a href="./assets/php/check_db_connection.php">Check Connecetion</a></li>
+                        <li><a href="./assets/php/camo_dps_check_db_connection.php">Check Connecetion</a></li>
                     </ul>';
          }
     ?>

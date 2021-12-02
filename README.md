@@ -34,10 +34,15 @@ Camo-DPS is a docker environment in which users can run a web server with a data
  Make sure you have downloaded and installed Docker.
  Once you got docker you can use these docker containers by running the command:
 
-    $ docker compose up
+    $ docker-compose up
 
+### Waring
+ Before you put your own website in the directory, make sure that you have already opened the website before you delete / changing files. Otherwise, there may be problems connecting the database.
 
 ### Use files for further developments
+#### Use your own index.* files
+ To use your own index.* files you can delete the 'index.php' and put your files in the '/src/public' directory. To use the database you can use the files: 'db_connection.php' and 'db_connection_execute_sql.php'. The login details of the database are: username: **'root'** & password: **'Welkom01!'**. To be able to work in a database you have to use the function 'OpenCon' which you have to give one parameter what the name of the database should be. This function can be found in the script 'db_connection.php'
+
 ##### Execute .sql files from php 
  In the folder /src/assets/php/ there is a file called 'run_sql_script.php'. This file contains the code to run a sql script on the database via php. In that file a reference is made to '../sql/test.sql', you could modify this to run your own .sql script.
 

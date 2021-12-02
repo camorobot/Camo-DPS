@@ -1,6 +1,6 @@
 <?php
 
-    require 'db_connectie.php';
+    require 'db_connection.php';
     $conn = OpenCon("muziekdatabase");
 
     $sql = "select jaartal from Stuk";  

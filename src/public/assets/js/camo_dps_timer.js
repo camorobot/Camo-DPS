@@ -1,5 +1,5 @@
 var count = 9;
-var redirect = "./assets/php/setup_database.php";
+var redirect = "./assets/php/camo_dps_setup_database.php";
                         
 function countDown(){
     var timer = document.getElementById("timer");
