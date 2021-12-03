@@ -54,6 +54,7 @@
                         <li><a href="./assets/php/view_data_db.php">Muziekdatabase</a></li>
                         <li><a href="http://localhost:8080">Php myadmin</a></li>
                         <li><a href="./assets/php/camo_dps_check_db_connection.php">Check Connecetion</a></li>
+                        <li><a href="./assets/php/camo_dps_restore_database.php">Restore database</a></li>
                     </ul>';
          }
     ?>

@@ -46,5 +46,8 @@ Camo-DPS is a docker environment in which users can run a web server with a data
 ##### Execute .sql files from php 
  In the folder /src/assets/php/ there is a file called 'run_sql_script.php'. This file contains the code to run a sql script on the database via php. In that file a reference is made to '../sql/test.sql', you could modify this to run your own .sql script.
 
+##### Restore a database
+ To restore a database you need to make sure your database is converted to a .sql file. once you have this file you can place it in the **'/src/public/assets/sql/camo_dsp_restore'** folder. When opening the docker container in the browser for the first time, the database is loaded immediately. Do you want to load a database at another time? First put your .sql file in the folder 'camo_dsp_restore' and then open the file **'/src/public/assets/php/camo_dps_restore_database.php'** in your browser (click [here](http://localhost/assets/php/camo_dps_restore_database.php) to open the link).
+
 ##### View database data on the webpage
  If you want to read data from the database there is a file called '/src/public/assets/php/view_data_db.php'. This describes how you can run a query and display the data on the website

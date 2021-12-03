@@ -11,5 +11,5 @@
     $stmt = $db->prepare($query);
     $stmt->execute();
 
-    header('Location: /');
+    header('Location: ./camo_dps_restore_database.php');
 ?>
